@@ -1,7 +1,10 @@
 ---
 layout: default
+output:
+  html_document:
+    includes:
+       in_header: header.html
 ---
-
 
 <div class="player">
     <ts-track title="Guitar">

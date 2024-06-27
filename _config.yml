@@ -6,8 +6,3 @@ title: GitHub Pages + trackswitch.js
 description: [This page shows how to use trackswitch.js with GitHub pages]
 
 markdown: kramdown
-
-output:
-  html_document:
-    includes:
-       in_header: header.html
