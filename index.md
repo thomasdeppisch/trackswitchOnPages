@@ -122,9 +122,7 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 
-<html>
 <head>
-    <title>Multi Track Audio Player</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdn.rawgit.com/download/polymer-cdn/1.5.0/lib/webcomponentsjs/webcomponents-lite.min.js"></script>
@@ -157,4 +155,3 @@ The final element.
     });
 </script>
 </body>
-</html>
