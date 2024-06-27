@@ -11,20 +11,19 @@ layout: default
         <ts-source src="audio/drums.wav"></ts-source>
     </ts-track>
 </div>
-<p>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
-  <script src="thirdparty/trackswitch-js/trackswitch.min.js"></script>
-  <script type="text/javascript">
-      var settings = {
-          onlyradiosolo: true,
-          repeat: true,
-      };
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="thirdparty/trackswitch-js/trackswitch.min.js"></script>
+<script type="text/javascript">
+    var settings = {
+        onlyradiosolo: true,
+        repeat: true,
+    };
 
-      jQuery(document).ready(function() {
-          jQuery(".player").trackSwitch(settings); 
-      });
-  </script>
-</p>
+    jQuery(document).ready(function() {
+        jQuery(".player").trackSwitch(settings); 
+    });
+</script>
+
 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
