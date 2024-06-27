@@ -3,15 +3,6 @@ layout: default
 ---
 
 
-
-<head>
-    <script src="https://cdn.rawgit.com/download/polymer-cdn/1.5.0/lib/webcomponentsjs/webcomponents-lite.min.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="thirdparty/trackswitch-js/trackswitch.min.css" />
-</head>
-
-
-<body>
 <div class="player">
     <ts-track title="Guitar">
         <ts-source src="audio/guitar.wav"></ts-source>
@@ -20,7 +11,6 @@ layout: default
         <ts-source src="audio/drums.wav"></ts-source>
     </ts-track>
 </div>
-
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
 <script src="thirdparty/trackswitch-js/trackswitch.min.js"></script>
@@ -35,7 +25,6 @@ layout: default
         jQuery(".player").trackSwitch(settings); 
     });
 </script>
-</body>
 
 
 
