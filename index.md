@@ -11,10 +11,8 @@ layout: default
         <ts-source src="audio/drums.wav"></ts-source>
     </ts-track>
 </div>
-
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
 <script src="thirdparty/trackswitch-js/trackswitch.min.js"></script>
-
 <script type="text/javascript">
     var settings = {
         onlyradiosolo: true,
