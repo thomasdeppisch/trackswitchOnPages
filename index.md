@@ -2,6 +2,42 @@
 layout: default
 ---
 
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.rawgit.com/download/polymer-cdn/1.5.0/lib/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="thirdparty/trackswitch-js/trackswitch.min.css" />
+</head>
+<body>
+
+<div class="player">
+    <ts-track title="Guitar">
+        <ts-source src="audio/guitar.wav"></ts-source>
+    </ts-track>
+    <ts-track title="Drums">
+        <ts-source src="audio/drums.wav"></ts-source>
+    </ts-track>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+<script src="thirdparty/trackswitch-js/trackswitch.min.js"></script>
+
+<script type="text/javascript">
+    var settings = {
+        onlyradiosolo: true,
+        repeat: true,
+    };
+
+    jQuery(document).ready(function() {
+        jQuery(".player").trackSwitch(settings); 
+    });
+</script>
+</body>
+
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
@@ -122,38 +158,3 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
-
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.rawgit.com/download/polymer-cdn/1.5.0/lib/webcomponentsjs/webcomponents-lite.min.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="thirdparty/trackswitch-js/trackswitch.min.css" />
-</head>
-<body>
-
-<div class="player">
-    <ts-track title="Guitar">
-        <ts-source src="audio/guitar.wav"></ts-source>
-    </ts-track>
-    <ts-track title="Drums">
-        <ts-source src="audio/drums.wav"></ts-source>
-    </ts-track>
-</div>
-
-
-<script src="thirdparty/trackswitch-js/trackswitch.min.js"></script>
-
-<script type="text/javascript">
-    var settings = {
-        onlyradiosolo: true,
-        repeat: true,
-    };
-
-    jQuery(document).ready(function() {
-        jQuery(".player").trackSwitch(settings); 
-    });
-</script>
-</body>
