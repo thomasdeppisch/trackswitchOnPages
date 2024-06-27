@@ -1,11 +1,10 @@
 ---
 layout: default
-output:
-  html_document:
-    includes:
-       in_header: header.html
 ---
 
+<script src="https://cdn.rawgit.com/download/polymer-cdn/1.5.0/lib/webcomponentsjs/webcomponents-lite.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="thirdparty/trackswitch-js/trackswitch.min.css" />
 <div class="player">
     <ts-track title="Guitar">
         <ts-source src="audio/guitar.wav"></ts-source>
